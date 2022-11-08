@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Login/miestilo.css">
+</head>
+
+<body>
+    <!-- <div style="margin: 0 auto; background-color: red; width: 20%;"> -->
+    <!--enviamos el action a un archivo php donde se haran las validaciones necesarias
+        y en dado caso de exito se obtiene la info de la bd-->
+    <header class="encabezado">
+        <p>4.2 Estructuras de Control <span>by José Torres</span></p>
+    </header>
+    <main class="formulario">
+        <form action="../Login/calculos.php" method="post">
+            <h1 class="nombre">Maximo Comun Divisor</h1>
+            <div>
+                <input type="text" name="enteroA" value="" placeholder="Ingresa entero a">
+            </div>
+            <br>
+            <div>
+                <input type="text" name="enteroB" value="" placeholder="Ingresa entero B">
+            </div>
+            <br>
+            <div>
+                <button type="submit">Enviar datos</button>
+            </div>
+            <p>*Puedes escribir los numeros o usar el desplazador de la caja</p>
+        </form>
+    </main>
+    <section class="resultado">
+        <p>MCD: </p>
+    </section>
+    <footer class="pie-de-pagina">
+        <p>Programación WEB ® ITCJ TIC's 2022.</p>
+    </footer>
+</body>
+
+</html>

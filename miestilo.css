@@ -1,0 +1,85 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    background-color: #6d6d6d;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: lighter; */
+}
+
+/* Creamos un formulario entrico */
+form {
+    width: 80%;
+    background-color: white;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.encabezado {
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #ffa000;
+    font-size: 8rem;
+    border-radius: 0.5rem;
+    width: 80%;
+}
+
+input {
+    margin: 1rem;
+    border-radius: 0.5rem;
+    font-size: 4rem;
+}
+
+input::placeholder {
+    font-style: italic;
+    color: rgba(37, 37, 37, 0.5);
+}
+
+button {
+    color: black;
+    background: #ffb300;
+    font-size: 2rem;
+    border: none;
+    margin: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+span {
+    font-size: 3rem;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+.pie-de-pagina {
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 80%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+}
