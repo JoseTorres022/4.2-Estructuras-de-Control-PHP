@@ -29,3 +29,4 @@ echo "</br> &nbsp; El MCD de " . $enteroA . " y " . $enteroB . " es: " . $verRes
 //creamos un Ancla (Anchor <a>) para redigigirnos a la pagina principal
 echo "</br>";
 echo '</br><a href="index.html">Regresar a la pagina principal</a>';
+?>
